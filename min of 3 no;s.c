@@ -8,7 +8,7 @@ int main()
 	{
 		minimum=a;
 	}
-	else if((a<c)&&(b<a))
+	else if((b<c)&&(b<a))
 	{
 		minimum=b;
 	}
