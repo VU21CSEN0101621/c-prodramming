@@ -1,18 +1,18 @@
 #include<stdio.h>
 int main()
 {
-	int x,b,c,minimum;
+	int a,b,c,minimum;
 	printf("enter three numbers:");
-	scanf("%d%d%d",&x,&b,&c);
-	if((x<b)&&(x<c))
+	scanf("%d%d%d",&a,&b,&c);
+	if((a<b)&&(a<c))
 	{
-		minimum=x;
+		minimum=a;
 	}
-	else if((b<c)&&(b<x))
+	else if((a<c)&&(b<a))
 	{
 		minimum=b;
 	}
-	else if((c<x)&&(c<b))
+	else if((c<a)&&(c<b))
 	{
 		minimum=c;
 	}
